@@ -1,0 +1,27 @@
+💡 Practical Challenge: The Three-Step Variable Swap
+
+This exercise is designed to test your fundamental understanding of variable assignment and how to use temporary storage in programming.
+
+Task: Complete the provided Python file, variableswap.py.
+
+Instructions
+
+Examine the Variables: The file begins by declaring two integer variables:
+
+a is initialized to 10.
+
+b is initialized to 20.
+
+The Goal: Write Python code to successfully swap the values stored in these two variables. After your code executes, a must hold the value 20, and b must hold the value 10.
+
+The Method (The Hint): You must use a third, temporary variable (e.g., temp) to correctly manage the swap. If you overwrite a variable before saving its value, the original data will be lost!
+
+Steps to Follow:
+
+Step 1: Save the original value of a into the temp variable.
+
+Step 2: Assign the value of b to a (overwriting the original 10).
+
+Step 3: Assign the value of temp (the original 10) to b.
+
+Verification: Run the final code to ensure the print statements show the correct, swapped values.
