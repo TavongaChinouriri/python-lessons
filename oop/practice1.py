@@ -33,7 +33,9 @@ class Marks:
             print(f"Graded Mark: E")
 
 
-teacher = Marks("Tavonga", 73, 63, 89, 53)
+data = input("Enter student name and 4 marks separated by commas (e.g., Tavonga,73,63,89,53): ")
+name, m1, m2, m3, m4 = data.split(",")
+teacher = Marks(name, int(m1), int(m2), int(m3), int(m4))
 teacher.totalMarks()
 teacher.average()
 teacher.grade()
