@@ -1,3 +1,7 @@
+# Use a class and functions to allow a teacher to enter 4 marks, 
+# get the total, the average and grade that average.
+# Teacher should use input function to enter the marks, not hard coded ones
+
 class Marks:
 
     def __init__(self, studentName, mark1, mark2, mark3, mark4):
